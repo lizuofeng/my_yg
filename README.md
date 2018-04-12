@@ -1,5 +1,5 @@
 # my_yg
-对you_get进行修改从而提出对外开放的接口\n
+对you_get进行修改从而提出对外开放的接口  
 参数类:
 ```
 class myargs():
@@ -39,3 +39,4 @@ from my_yg.common import yg
 yg(URL = None, output_dir = '.', debug = False)
 ``` 
   其中URL为视频播放页URL,output_dir为视频文件输出路径,debug为是否进行调试的标志
+  
