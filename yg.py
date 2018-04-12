@@ -42,4 +42,4 @@ output_dir = '.'
 debug = True      
         
 if __name__ == '__main__':
-    yg(URL = url)
+    yg(URL = url, output_dir = output_dir, debug = debug)
