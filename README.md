@@ -1,5 +1,5 @@
 # my_yg
-对you_get进行修改从而提出对外开放的接口
+对you_get进行修改从而提出对外开放的接口\n
 参数类:
 ```
 class myargs():
