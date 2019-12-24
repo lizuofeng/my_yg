@@ -1,8 +1,15 @@
 # my_yg(you-get)
 对you_get进行修改从而提出对外开放的接口  
-参数类:
+接口:
 ```
-class myargs:
+from my_yg.common import yg
+yg(url=None, output_dir='.', debug=False)
+``` 
+  其中url为视频播放页url，output_dir为视频文件输出路径，debug为是否进行调试的标志。
+ 传入的参数将生成对应的Myargs对象，Myargs属性
+ 参数类:
+```
+class Myargs:
     def __init__(self, url, output_dir, debug):
         self.URL = []
         if url is not None:
@@ -33,10 +40,4 @@ class myargs:
         self.url = False
         self.version = False
 ```
-接口:
-```
-from my_yg.common import yg
-yg(URL = None, output_dir = '.', debug = False)
-``` 
-  其中URL为视频播放页URL,output_dir为视频文件输出路径,debug为是否进行调试的标志
-  
+    如需使用更多参数，请自行修改 

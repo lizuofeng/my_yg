@@ -1,4 +1,9 @@
-class myargs:
+"""
+Created on 2018.4.11
+
+@author: zfli
+"""
+class Myargs:
     def __init__(self, url, output_dir, debug):
         self.URL = []
         if url is not None:
